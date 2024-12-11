@@ -19,7 +19,7 @@ def add_todo():
 st.title("Coops Todo App")
 st.subheader("Simple todo app to help with your tasks")
 st.write("This app is to increase your productivity, simply type in a new todo item and hit enter, "
-         "once completed simply check the tickbox to remove it from your list.")
+         "once completed check the tickbox to remove it from your list.")
 
 for index, todo in enumerate(todos):
     checkbox = st.checkbox(todo, key=f"{todo}_{index}")
