@@ -1,4 +1,3 @@
 Test web app
 Deploy app
 Cleaning
-Studying
